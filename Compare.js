@@ -11,8 +11,6 @@ function ImageCompare(){
         context0.putImageData(diff0, 0, 0);
 
         if( isEqual = imagediff.equal(ImageA, ImageB , 200)){
-            console.log(isEqual);
-            console.log(i);
             ImageB.click();
         }
     }
