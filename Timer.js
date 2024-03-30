@@ -16,7 +16,7 @@ function startInterval(intervalSeconds) {
             // You can access the value of #timer here again if you want
 
             // Update interval duration based on the decreasing value of #timer
-            intervalSeconds = parseInt(document.getElementById('timer').value);
+            intervalSeconds = parseInt(document.getElementById('timer').textContent);
             clearInterval(intervalId); // Clear previous interval
             startInterval(intervalSeconds); // Start new interval with updated duration
 
